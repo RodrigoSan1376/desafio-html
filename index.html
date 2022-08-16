@@ -13,7 +13,7 @@
         <ul>
           <li><a href="#noticias">Notícias</a></li>
           <li><a href="#jogos">Jogos</a></li>
-          <li><a href="#inscrever">Inscreva-se</a></li>
+          <li><a href="#inscricao">Inscreva-se</a></li>
         </ul>
 
         <div>
@@ -86,7 +86,6 @@
       </section>
 
       <section id="jogos">
-        
         <h2>Jogos</h2>
 
         <div>
@@ -115,8 +114,60 @@
             <h2>9.7</h2>
           </div>
         </div>
-
       </section>
+
+      <section id="inscricao">
+        <h2>Faça sua inscrição</h2>
+
+        <form action="obrigado.html">
+          <div>
+            <input id="ctrl-name" name="name" type="text" placeholder="Nome completo" />
+          </div>
+          <div>
+            <input id="ctrl-email" name="email" type="email" placeholder="Email" />
+          </div>
+
+          <div>
+            <label for="ctrl-level">Qual sua plataforma preferida?</label>
+
+            <div id="ctrl-level">
+              <input type="radio" name="level" id="ctrl-level-1" />
+              <label for="ctrl-level-1">PC</label><br />
+              <input type="radio" name="level" id="ctrl-level-2" />
+              <label for="ctrl-level-2">Xbox</label><br />
+              <input type="radio" name="level" id="ctrl-level-3" />
+              <label for="ctrl-level-3">Playstation</label><br />
+            </div>
+
+            <div id="ctrl-novidades">
+              <input id="ctrl-novidades" name="novidades" type="checkbox" />
+              <label for="ctrl-novidades">Desejo receber novidades.</label>
+            </div>
+          </div>
+
+          <input type="submit" value="Enviar" />
+          <input type="reset" value="Limpar" />
+        </form>
+      </section>  
     </main>
+
+    <footer>
+      <div>
+        <div>
+          <a href="#">@dsplaygames</a><br>
+          <a href="#">/dsplaygames</a>
+        </div>
+
+        <div>
+          <p>DS Play Games Ltda. Todos direitos reservados</p>
+        </div>
+
+        <div>
+          <a href="#">Política de privacidade</a><br>
+          <a href="#">Termos de uso</a>
+        </div>
+      </div>
+    </footer>
+
   </body>
 </html>
